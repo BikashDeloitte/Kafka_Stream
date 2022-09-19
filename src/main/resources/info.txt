@@ -7,7 +7,7 @@ confluent local services start
 
 make proxy localhost as IP address
 ifconfig - command in Ubuntu to find connectaddress
-netsh interface portproxy add v4tov4 listenport=9092 listenaddress=0.0.0.0 connectport=9092 connectaddress=<your-ip>
+netsh interface portproxy add v4tov4 listenport=9092 listenaddress=0.0.0.0 connectport=9092 connectaddress=<your-ip> - in cmd as admin
 
 kafka command :
 create topic:
